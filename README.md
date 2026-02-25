@@ -210,3 +210,48 @@ please send an email to ccextractor@canihavesome.coffee (GPG key
 fingerprint 53FF DE55 6DFC 27C3 C688 1A49 3AFD C9BF F864 3F5B) instead of
 using the issue tracker. This will help to prevent abuse while the issue is
 being resolved.
+
+🚀 Sample Platform NG (Next-Gen)
+A modernized, "XXI Century" frontend for CCExtractor's Sample Platform. This project transitions the existing Flask-based UI into a high-performance, decoupled React application.
+
+✨ Key Features
+Modern UI/UX: A sleek, dark-themed dashboard built with Tailwind CSS v3.
+
+Responsive Sidebar: Intuitive navigation with dynamic routing support.
+
+Live CI Dashboard: Visualized regression test results with status indicators (Passed, Failed, Running).
+
+Component-Based Architecture: Modular React components for high maintainability.
+
+API Service Layer: Pre-configured Axios instance for seamless backend integration with the Python modules.
+
+🛠️ Tech Stack
+Frontend: React.js
+
+Styling: Tailwind CSS v3
+
+Icons: Lucide React
+
+HTTP Client: Axios
+
+Build Tool: Vite
+
+<img width="1920" height="916" alt="image" src="https://github.com/user-attachments/assets/6e6d7e10-7d7f-4bb8-b918-841d05738af1" />
+
+
+🚀 Getting Started
+Prerequisites
+Node.js (v18 or higher)
+
+npm or yarn
+
+Installation
+Navigate to the frontend directory:
+
+Install dependencies:
+
+Run the development server:
+
+🔗 Backend Integration
+The frontend is designed to communicate with the existing Sample Platform backend. Ensure your local Python server is running on http://localhost:5000 to enable data synchronization via the API laye
+
